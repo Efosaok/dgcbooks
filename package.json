@@ -1,0 +1,22 @@
+{
+  "name": "dgcbooks",
+  "version": "1.0.0",
+  "description": "A book ordering website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon app.js"
+  },
+  "author": "Efosa Okpugie",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "eslint": "^4.8.0",
+    "express": "^4.16.1",
+    "express-handlebars": "^3.0.0",
+    "handlebars": "^4.0.10",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.12.1",
+    "path": "^0.12.7"
+  }
+}
